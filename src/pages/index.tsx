@@ -65,7 +65,7 @@ function Intro(): JSX.Element {
         <span className={`${cls}-info`}>
           <span>👋</span> <Translate id="home.intro.info">Hello, 我是</Translate>
         </span>
-        <span className={`${cls}-name`}>ALAN WANG</span>
+        <span className={`${cls}-name`}>粽叶</span>
       </h1>
 
       <span className={`${cls}-desc`} ref={typingElement} />
@@ -76,12 +76,12 @@ function Intro(): JSX.Element {
         </span>
         {'  '}
         <span>
-          <Translate id="home.intro.desc2">技术栈： React, Typescript, Sass, Node</Translate>
+          <Translate id="home.intro.desc2">技术栈： React, Vue, Typescript, Less, Node</Translate>
         </span>
         {'  '}
-        <span>
+        {/* <span>
           <Translate id="home.intro.desc3">开源爱好者</Translate>
-        </span>
+        </span> */}
       </div>
 
       <div className={`${cls}-links`}>
