@@ -63,7 +63,7 @@ function Intro(): JSX.Element {
     <div className={`${cls}-me`}>
       <h1>
         <span className={`${cls}-info`}>
-          <span>👋</span> <Translate id="home.intro.info">Hello, 我是</Translate>
+          <span>👋</span> <Translate id="home.intro.info">Hello 达儿, 我是</Translate>
         </span>
         <span className={`${cls}-name`}>粽叶</span>
       </h1>
